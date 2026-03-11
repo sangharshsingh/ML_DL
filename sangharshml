@@ -1,0 +1,49 @@
+\optimisers:-rmsprop,adam
+
+activation fn:- relu(Leaky relu),sigmoid,softmax,tanh
+
+loss fn:-mse,binarycrossentropy,categoricalcrossentropy
+
+Regex ,NLP:-libraries[nltk,spacy]
+
+tokenisation stemming lemmatisation Parts of speech, named entity recognition , bigram,stop words and all related topics
+
+ML:- Bow(count vectoriser),TFIDF
+
+DL:- rnn/lstm and connecrtivity to bert or gen ai overview.
+ 
+Word embeddings(Gensim):- Word2vec(cbow,skipgram),glove,fasttext
+
+Tokenisers:- Word based and all.
+
+Transformers :- encoder and decoder(bert and chatgpt),and both encoder-decoder(T5,bart)
+Transformers package:-Pipeline('fill-mHow to build a RAG system step-by-stepHow to build a RAG system step-by-stepask','text-generation')
+
+embeddings":-static,contextual and positional    (k(key):-what i have ,q(query):-what to predict,v(value):-what u can take form me,  kqv matrix)
+
+ollama:- chat(multiple responses and chat prompt),generate(only onr response)
+
+attentionn and multilayer perceptron and multi heaaded attentions(attention all you need)
+
+###sparse learning context generartive: overview and confusion####
+
+Fine tuning :-PEFT=Adapters,prompting(Low rank adapters[LORA]
+Fine tuning of bert model and PEFT of LORA(rank) and QLORA and ADALORA
+LORA:-bert and gpt
+ADALORA:-rank changes per layer
+Quantization:-QLORA (post Quantization LORA), QAT (Mocking quantization while LORA),QAT+LORA on BERT
+
+Distillation:-Teacher Student model.
+
+Model EValuation in nlp:-Bleu and rodge
+
+Langchain :-agents tools chains runnables prompt templates are modules fo langchain.and then memory/history/entity and session
+MOdules:- `1)Prompt templates:-template,input  varibales,from templates,from messages from examples then parsers csv and output parser
+	   2)Tools
+	   3)Memory
+
+RAG:-Retrieval augmented generation
+	LLM
+	Chunks---->sentence embeddings
+	vectors dbs
+	retrievers
